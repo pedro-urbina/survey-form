@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Ticket Form</title>
+    <meta name="Project" content="Ticket Form">
+    <meta name="Pedro Urbina" content="">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body id="main">
+
+    <h1 id="title">Ticket Form</h1>
+    <p id="description">Thank you for taking the time to view my project.</p>
+
+    <form id="survey-form">
+        <label id="name-label" for="name">Name</label><br>
+        <input id="name" type="text" placeholder="Enter your name" required><br><br>
+
+        <label id="email-label" for="email">Email</label><br>
+        <input id="email" type="email" placeholder="Enter your email" required><br><br>
+
+        <label id="phone-label" for="phone">Phone Number</label><br>
+        <input id="phone" type="tel" placeholder="Enter your phone number" required><br><br>
+
+        <label id="number-label" for="number">Unit</label><br>
+        <input id="number" type="number" min="0" max="9999" placeholder="Enter your unit number" required><br><br>
+
+        <label id="dropdown-label" for="dropdown">Role</label><br>
+        <select id="dropdown">
+            <option value="employee">Employee</option>
+            <option value="resident">Resident</option>
+            <option value="visitor">Visitor</option>
+        </select><br><br>
+
+        <label id="category-label" for="category">Ticket Category</label><br>
+        <input type="radio" id="billing" name="category" value="billing">
+        <label class="radio-label" for="billing">Billing</label>
+
+        <input type="radio" id="maintenance" name="category" value="maintenance">
+        <label class="radio-label" for="maintenance">Maintenance</label><br><br>
+
+        <label id="contact-label" for="contact">Preferred Contact</label><br>
+        <input type="checkbox" id="call" name="contact" value="call">
+        <label class="checkbox-label" for="call">Call</label>
+
+        <input type="checkbox" id="text" name="contact" value="text">
+        <label class="checkbox-label" for="text">Text</label>
+
+        <input type="checkbox" id="email" name="contact" value="email">
+        <label class="checkbox-label" for="email">Email</label><br><br>
+
+        <label id="comments-label" for="comments">Comments</label><br>
+        <textarea id="comments">Type here...</textarea><br><br>
+
+        <button type="submit" form="survey-form" id="submit" value="Submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script/>
