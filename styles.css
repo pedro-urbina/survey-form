@@ -7,27 +7,6 @@
   font-size: 50px;
 }
 
-#img-div {
-}
-
-#image {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  height: auto;  
-}
-
-#image-caption {
-}
-
-#tribute-info {
-}
-
-ul {
-  max-width: 400px;
-  margin: auto;
-  text-align: left;
-}
-
-#tribute-link {
+#name, #email, #phone, #number {
+  width: 200px;
 }
